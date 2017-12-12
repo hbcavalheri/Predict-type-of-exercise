@@ -1,13 +1,14 @@
 ---
 title: "Prediction Assignment Writeup"
-output: html_document
+output:
+  pdf_document: default
+  
 ---
 
 Briefly, using data gathered by tracking activity devices, such as accelerometers on the belt, forearm, arm, and dumbell of 6 participants, the goal of this project is to predict how well these devices determine what type of exercise users did. 
 
 ```{r setup, include=FALSE}
-library(knitr)
-knitr::opts_chunk$set(echo = TRUE, fig.width=6, fig.height=6, eval.after = 'fig.cap')
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Loading data
